@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ur">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elegant Calligraphy</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: url('background.jpeg') no-repeat center center/cover;
+    min-height: 100vh;
+}
+
+/* Overlay */
+.overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(12, 10, 10, 0.8);
+}
+
+/* Main container */
+.container {
+    position: relative;
+    z-index: 2;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+    color: white;
+    padding: 30px 20px;
+}
+
+/* Profile */
+.profile {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 20px auto;
+    border: 3px solid white;
+}
+
+.profile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Title */
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+/* Headings (Arabic style) */
+h1, h2 {
+    font-family: 'Amiri', serif;
+}
+
+/* Urdu paragraph */
+.intro {
+    font-family: 'Noto Nastaliq Urdu', serif;
+    direction: rtl;
+    text-align: center;
+   /* لائنوں کے درمیان gap */
+    letter-spacing: 70px;   /* حروف کے درمیان تھوڑا gap */
+    word-spacing: 10px;     /* الفاظ کے درمیان gap */
+
+    font-size: 18px;
+}
+/* Urdu intro */
+.intro {
+    font-size: 16px;
+    line-height: 2.5;
+    margin-bottom: 40px;
+}
+
+/* Work sections */
+.work {
+    margin-bottom: 30px;
+}
+
+.work h2 {
+    margin-bottom: 20px;
+}
+
+.work img {
+     width: 50%;               /* تھوڑا چھوٹا */
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;  /* smooth zoom */
+    cursor: pointer;
+}
+.work img:hover{
+    transform:scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.work p {
+    font-size: 14px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* YouTube link */
+.social {
+    margin-top: 20px;
+}
+
+.social a {
+    color: white;
+    margin: 0 10px;
+    font-size: 22px;
+    transition: 0.3s;
+}
+
+/* YouTube */
+.social a:hover .fa-youtube {
+    color: #FF0000;
+}
+
+/* TikTok */
+.social a:hover .fa-tiktok {
+    color: #000000;
+}
+
+/* Twitter (X) */
+.social a:hover .fa-twitter {
+    color: #1DA1F2;
+}
+
+/* Facebook */
+.social a:hover .fa-facebook {
+    color: #1877F2;
+}
+.social a:hover .fa-instagram {
+    color: #E1306C;
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="overlay"></div>
+
+<div class="container">
+
+    <!-- Profile -->
+    <div class="profile">
+        <img src="profile.jpeg" alt="">
+    </div>
+
+    <!-- Title -->
+    <h1>Elegant Calligraphy</h1>
+
+    <!-- Urdu Intro -->
+    <p class="intro">
+السلام علیکم! میں ایک پرجوش خطاط ہوں جو عربی اور اسلامی خطاطی کو خوبصورت اور منفرد انداز میں پیش کرتا ہوں۔
+میرے لیے خطاطی صرف ایک فن نہیں بلکہ ایک جذبہ ہے جس کے ذریعے میں الفاظ کو خوبصورتی اور روحانیت میں ڈھالتا ہوں۔
+
+میں اپنے یوٹیوب چینل پر باقاعدگی سے اپنی خطاطی کے کام، نئے ڈیزائنز اور تخلیقی عمل کو شیئر کرتا ہوں تاکہ لوگ اس فن کو قریب سے دیکھ سکیں اور سیکھ سکیں۔
+اگر آپ اپنے نام، کسی خاص لفظ یا کسی ڈیزائن کی خطاطی بنوانا چاہتے ہیں تو آپ مجھ سے رابطہ کر سکتے ہیں۔
+
+میرا مقصد یہ ہے کہ میں اپنی محنت اور تخلیقی صلاحیت کے ذریعے خطاطی کو مزید فروغ دوں اور لوگوں تک اس کی خوبصورتی پہنچاؤں۔
+آپ کی سپورٹ میرے لیے بہت اہم ہے۔
+    </p>
+
+    <!-- Work 1 -->
+    <div class="work">
+        <h2>بسم اللّہ الرحمٰن الرحیم خطاطی</h2>
+        <img src="image1.jpeg" alt="">
+    </div>
+
+    <!-- Work 2 -->
+    <div class="work">
+        <h2>الحمدللہ خطاطی</h2>
+        <img src="image2.jpeg" alt="">
+    </div>
+
+    <!-- YouTube -->
+ 
+    <div class="social">
+    <a href="https://youtube.com/@elegantcalligraphyamr?si=glSbL5oS3xhbPzdi" target="_blank"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.tiktok.com/@elegantcalligraphy1?_r=1&_t=ZS-959RbChTbQj" target="_blank"><i class="fab fa-tiktok"></i></a>
+    <a href="https://x.com/Ranamimr" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://www.facebook.com/share/1BJcFwyhV1/" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://www.instagram.com/calligraphyelegant?igsh=MWZpZWp4Zm1nZjdyOA==" target="_blank"><i class="fab fa-instagram"></i></a>
+</div>
+
+</div>
+
+</body>
+</html>
