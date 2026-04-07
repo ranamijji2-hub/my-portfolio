@@ -22,7 +22,7 @@
 ### 🔹 Portfolio Website
 - A personal portfolio to showcase my work  
 - Built with HTML, CSS, JavaScript  
-- Live Demo: https://your-portfolio-link.com  
+- Live Demo:https://ranamijji2-hub.github.io/my-portfolio/
 
 ---
 
